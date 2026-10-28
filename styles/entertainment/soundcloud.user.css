@@ -1,0 +1,60 @@
+/* ==UserStyle==
+@name SoundCloud Ink
+@namespace stylus-ink/extra/soundcloud
+@version 1.0.0
+@description Tema oscuro monocromo Ink para SoundCloud.
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("soundcloud.com") {
+  :root {
+    color-scheme: dark;
+    --background: #0a0a0a !important;
+    --text: #e4e4e4 !important;
+    --secondary-text: #a8a8a8 !important;
+    --border: #2e2e2e !important;
+    --highlight: #b2b2b2 !important;
+    --ink-base: #0a0a0a;
+    --ink-surface: #1a1a1a;
+    --ink-border: #2e2e2e;
+    --ink-text: #e4e4e4;
+    --ink-muted: #a8a8a8;
+    --ink-accent: #b2b2b2;
+  }
+
+  html,
+  body,
+  .sc-background,
+  .l-container,
+  .playable,
+  .header {
+    background-color: var(--ink-base) !important;
+    color: var(--ink-text) !important;
+  }
+
+  .sc-card,
+  .soundBadge,
+  .profileHeader,
+  .commentForm {
+    background-color: var(--ink-surface) !important;
+    border-color: var(--ink-border) !important;
+  }
+
+  a {
+    color: var(--ink-muted) !important;
+  }
+
+  input,
+  textarea,
+  select {
+    background-color: var(--ink-surface) !important;
+    color: var(--ink-text) !important;
+    border-color: var(--ink-border) !important;
+    color-scheme: dark;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

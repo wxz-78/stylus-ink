@@ -1,0 +1,64 @@
+/* ==UserStyle==
+@name Medium Ink
+@namespace stylus-ink/extra/medium
+@version 1.0.0
+@description Tema oscuro monocromo Ink para Medium.
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("medium.com") {
+  :root {
+    color-scheme: dark;
+    --color-bg: #0a0a0a !important;
+    --color-text: #e4e4e4 !important;
+    --color-border: #2e2e2e !important;
+    --color-secondary: #a8a8a8 !important;
+    --color-accent: #b2b2b2 !important;
+  }
+
+  html,
+  body,
+  article,
+  .metabar,
+  nav,
+  [role="banner"] {
+    background-color: #0a0a0a !important;
+    color: #e4e4e4 !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  li,
+  blockquote {
+    color: #e4e4e4 !important;
+  }
+
+  a {
+    color: #c8c8c8 !important;
+  }
+
+  pre,
+  code,
+  figure,
+  blockquote {
+    background-color: #1a1a1a !important;
+    border-color: #2e2e2e !important;
+  }
+
+  input,
+  textarea,
+  select {
+    background-color: #1a1a1a !important;
+    color: #e4e4e4 !important;
+    border-color: #2e2e2e !important;
+    color-scheme: dark;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

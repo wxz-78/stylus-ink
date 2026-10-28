@@ -1,0 +1,42 @@
+/* ==UserStyle==
+@name Zoom Web Ink
+@namespace stylus-ink/extra/zoom-web
+@version 1.0.0
+@description Tema oscuro monocromo Ink para Zoom Web (reuniones y chat).
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("zoom.us"), domain("zoom.com") {
+  :root {
+    color-scheme: dark;
+    --zm-bg: #0a0a0a !important;
+    --zm-bg-secondary: #050505 !important;
+    --zm-bg-tertiary: #1a1a1a !important;
+    --zm-text: #e4e4e4 !important;
+    --zm-text-secondary: #a8a8a8 !important;
+    --zm-border: #2e2e2e !important;
+    --zm-primary: #b2b2b2 !important;
+    --zm-on-primary: #0a0a0a !important;
+  }
+
+  html,
+  body,
+  #root,
+  #app,
+  .app-container,
+  .chat-container {
+    background-color: #0a0a0a !important;
+    color: #e4e4e4 !important;
+  }
+
+  input,
+  textarea,
+  select {
+    color-scheme: dark;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

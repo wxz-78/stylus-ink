@@ -1,0 +1,64 @@
+/* ==UserStyle==
+@name Microsoft 365 Ink
+@namespace stylus-ink/extra/microsoft-365
+@version 1.0.0
+@description Tema oscuro monocromo Ink para Outlook Web, Teams Web y OneDrive.
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("outlook.live.com"), domain("outlook.office.com"), domain("outlook.office365.com"), domain("teams.microsoft.com"), domain("onedrive.live.com"), domain("onedrive.com") {
+  :root,
+  .ms-Fabric {
+    color-scheme: dark;
+    --colorNeutralBackground1: #0a0a0a !important;
+    --colorNeutralBackground2: #050505 !important;
+    --colorNeutralBackground3: #1a1a1a !important;
+    --colorNeutralBackground4: #2e2e2e !important;
+    --colorNeutralForeground1: #e4e4e4 !important;
+    --colorNeutralForeground2: #c8c8c8 !important;
+    --colorNeutralForeground3: #a8a8a8 !important;
+    --colorNeutralForeground4: #7d7d7d !important;
+    --colorNeutralStroke1: #2e2e2e !important;
+    --colorNeutralStroke2: #464646 !important;
+    --colorNeutralStrokeAccessible: #646464 !important;
+    --colorBrandBackground: #b2b2b2 !important;
+    --colorBrandBackgroundHover: #c8c8c8 !important;
+    --colorBrandForeground1: #b2b2b2 !important;
+    --colorBrandForeground2: #c8c8c8 !important;
+    --colorCompoundBrandBackground: #b2b2b2 !important;
+    --colorNeutralCardBackground: #1a1a1a !important;
+    --neutralPrimary: #e4e4e4 !important;
+    --neutralPrimaryAlt: #c8c8c8 !important;
+    --neutralSecondary: #a8a8a8 !important;
+    --neutralTertiary: #7d7d7d !important;
+    --neutralLight: #1a1a1a !important;
+    --neutralLighter: #1a1a1a !important;
+    --neutralLighterAlt: #0a0a0a !important;
+    --neutralDark: #efefef !important;
+    --themePrimary: #b2b2b2 !important;
+    --themeDark: #909090 !important;
+    --themeDarker: #7d7d7d !important;
+    --white: #0a0a0a !important;
+    --black: #e4e4e4 !important;
+  }
+
+  html,
+  body,
+  #app,
+  #root,
+  .ms-Fabric {
+    background-color: #0a0a0a !important;
+    color: #e4e4e4 !important;
+  }
+
+  input,
+  textarea,
+  select {
+    color-scheme: dark;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

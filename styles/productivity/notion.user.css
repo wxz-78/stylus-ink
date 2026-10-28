@@ -1,0 +1,63 @@
+/* ==UserStyle==
+@name Notion Ink
+@namespace stylus-ink/extra/notion
+@version 1.0.0
+@description Tema oscuro monocromo Ink para Notion.
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("notion.so"), domain("notion.site") {
+  :root,
+  .notion-light-theme,
+  .notion-dark-theme {
+    color-scheme: dark;
+    --color-bg-primary: #0a0a0a !important;
+    --color-bg-secondary: #050505 !important;
+    --color-bg-tertiary: #1a1a1a !important;
+    --color-bg-input: #1a1a1a !important;
+    --color-text-primary: #e4e4e4 !important;
+    --color-text-secondary: #a8a8a8 !important;
+    --color-text-tertiary: #7d7d7d !important;
+    --color-border-primary: #2e2e2e !important;
+    --color-border-secondary: #2e2e2e !important;
+    --color-border-input: #464646 !important;
+    --color-link: #c8c8c8 !important;
+    --color-blue: #a6a6a6 !important;
+    --bg-primary: #0a0a0a !important;
+    --bg-secondary: #050505 !important;
+    --bg-tertiary: #1a1a1a !important;
+    --text-primary: #e4e4e4 !important;
+    --text-secondary: #a8a8a8 !important;
+    --border-primary: #2e2e2e !important;
+    --interactive-hover: rgba(255, 255, 255, 0.06) !important;
+  }
+
+  html,
+  body,
+  .notion-app-inner,
+  .notion-frame,
+  .notion-sidebar-container {
+    background-color: #0a0a0a !important;
+    color: #e4e4e4 !important;
+  }
+
+  .notion-page-content,
+  .notion-page-content-inner {
+    background-color: #0a0a0a !important;
+  }
+
+  .notion-selectable:hover {
+    background-color: rgba(255, 255, 255, 0.04) !important;
+  }
+
+  input,
+  textarea,
+  select {
+    color-scheme: dark;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

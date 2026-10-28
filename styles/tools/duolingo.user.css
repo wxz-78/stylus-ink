@@ -1,0 +1,52 @@
+/* ==UserStyle==
+@name Duolingo Ink
+@namespace stylus-ink/extra/duolingo
+@version 1.0.0
+@description Tema oscuro monocromo Ink para Duolingo Web.
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("duolingo.com") {
+  :root {
+    color-scheme: dark;
+    --color-eel: #e4e4e4 !important;
+    --color-wolf: #a8a8a8 !important;
+    --color-hare: #7d7d7d !important;
+    --color-swan: #2e2e2e !important;
+    --color-polar: #1a1a1a !important;
+    --color-snow: #0a0a0a !important;
+    --color-feather: #050505 !important;
+    --color-macaw: #b2b2b2 !important;
+    --color-fox: #c8c8c8 !important;
+    --color-bee: #e9e9e9 !important;
+    --color-cardinal: #a0a0a0 !important;
+    --color-fire: #a0a0a0 !important;
+    --color-beetle: #909090 !important;
+    --color-humpback: #a6a6a6 !important;
+    --color-otter: #c8c8c8 !important;
+    --color-turtle: #dddddd !important;
+    --color-tree: #646464 !important;
+    --color-owl: #b2b2b2 !important;
+    --color-iguana: #dddddd !important;
+    --color-chameleon: #a8a8a8 !important;
+  }
+
+  html,
+  body,
+  #root,
+  #__next {
+    background-color: #0a0a0a !important;
+    color: #e4e4e4 !important;
+  }
+
+  input,
+  textarea,
+  select {
+    color-scheme: dark;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

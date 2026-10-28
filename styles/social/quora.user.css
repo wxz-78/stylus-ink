@@ -1,0 +1,56 @@
+/* ==UserStyle==
+@name Quora Ink
+@namespace stylus-ink/extra/quora
+@version 1.0.0
+@description Tema oscuro monocromo Ink para Quora.
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("quora.com") {
+  :root {
+    color-scheme: dark;
+    --q-color-bg: #0a0a0a !important;
+    --q-color-text: #e4e4e4 !important;
+    --q-color-border: #2e2e2e !important;
+    --q-color-secondary: #a8a8a8 !important;
+    --q-color-accent: #b2b2b2 !important;
+  }
+
+  html,
+  body,
+  .q-box,
+  .qu-borderAll,
+  .q-click-wrapper {
+    background-color: #0a0a0a !important;
+    color: #e4e4e4 !important;
+  }
+
+  .q-box {
+    border-color: #2e2e2e !important;
+  }
+
+  .q-text,
+  .q-click-wrapper,
+  .puppeteer_test_question_title {
+    color: #e4e4e4 !important;
+  }
+
+  .q-text.qu-color--gray,
+  .q-text.qu-color--gray_light {
+    color: #a8a8a8 !important;
+  }
+
+  input,
+  textarea,
+  select {
+    background-color: #1a1a1a !important;
+    color: #e4e4e4 !important;
+    border-color: #2e2e2e !important;
+    color-scheme: dark;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

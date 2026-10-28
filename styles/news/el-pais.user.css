@@ -1,0 +1,67 @@
+/* ==UserStyle==
+@name El País Ink
+@namespace stylus-ink/extra/el-pais
+@version 1.0.0
+@description Tema oscuro monocromo Ink para El País.
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("elpais.com"), domain("elpais.com.mx"), domain("brasil.elpais.com") {
+  :root {
+    color-scheme: dark;
+    --ink-base: #0a0a0a;
+    --ink-mantle: #050505;
+    --ink-surface: #1a1a1a;
+    --ink-border: #2e2e2e;
+    --ink-text: #e4e4e4;
+    --ink-muted: #a8a8a8;
+    --ink-accent: #b2b2b2;
+  }
+
+  html,
+  body,
+  #main-content,
+  .a-hd,
+  .a-ft,
+  .a-mn,
+  main,
+  article {
+    background-color: var(--ink-base) !important;
+    color: var(--ink-text) !important;
+  }
+
+  .a-hd,
+  .a-ft,
+  header,
+  footer,
+  nav {
+    background-color: var(--ink-mantle) !important;
+    border-color: var(--ink-border) !important;
+  }
+
+  .ue-c-cover-content,
+  .ue-c-article,
+  .c-card,
+  .c-module {
+    background-color: var(--ink-base) !important;
+    border-color: var(--ink-border) !important;
+  }
+
+  a {
+    color: var(--ink-muted) !important;
+  }
+
+  input,
+  textarea,
+  select {
+    background-color: var(--ink-surface) !important;
+    color: var(--ink-text) !important;
+    border-color: var(--ink-border) !important;
+    color-scheme: dark;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

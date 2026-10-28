@@ -1,0 +1,74 @@
+/* ==UserStyle==
+@name Slack Ink
+@namespace stylus-ink/extra/slack
+@version 1.0.0
+@description Tema oscuro monocromo Ink para Slack Web.
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("app.slack.com"), domain("slack.com") {
+  :root {
+    color-scheme: dark;
+    --sk_primary_background: #0a0a0a !important;
+    --sk_primary_foreground: #e4e4e4 !important;
+    --sk_secondary_background: #050505 !important;
+    --sk_secondary_foreground: #a8a8a8 !important;
+    --sk_foreground_max: #e4e4e4 !important;
+    --sk_foreground_high: #c8c8c8 !important;
+    --sk_foreground_low: #7d7d7d !important;
+    --sk_foreground_min: #464646 !important;
+    --sk_highlight: #b2b2b2 !important;
+    --sk_highlight_hover: #c8c8c8 !important;
+    --sk_background_primary: #0a0a0a !important;
+    --sk_background_secondary: #050505 !important;
+    --sk_border: #2e2e2e !important;
+    --sk_link: #c8c8c8 !important;
+    --sk_mention: #1a1a1a !important;
+    --sk_mention_color: #e4e4e4 !important;
+    --sk_white: #e4e4e4 !important;
+    --sk_black: #0a0a0a !important;
+    --sk_color_blue: #a6a6a6 !important;
+    --sk_color_green: #dddddd !important;
+    --sk_color_red: #a0a0a0 !important;
+    --sk_color_yellow: #e9e9e9 !important;
+    --p-channel_sidebar__bg: #050505 !important;
+    --p-channel_sidebar__bg__hover: #1a1a1a !important;
+    --p-channel_sidebar__bg__active: #2e2e2e !important;
+    --p-channel_sidebar__text: #c8c8c8 !important;
+    --p-channel_sidebar__text__hover: #e4e4e4 !important;
+    --p-channel_sidebar__text__active: #efefef !important;
+    --p-channel_sidebar__badge: #b2b2b2 !important;
+    --p-channel_sidebar__badge__text: #0a0a0a !important;
+    --p-channel_sidebar__border: #2e2e2e !important;
+    --p-top_nav__bg: #050505 !important;
+    --p-top_nav__text: #e4e4e4 !important;
+    --p-message_pane__bg: #0a0a0a !important;
+    --p-message_pane__text: #e4e4e4 !important;
+    --p-message_pane__foreground: #e4e4e4 !important;
+    --p-message_pane__foreground__secondary: #a8a8a8 !important;
+    --p-message_pane__foreground__tertiary: #7d7d7d !important;
+    --p-message_pane__foreground__link: #c8c8c8 !important;
+    --p-message_pane__highlight_bg: #1a1a1a !important;
+    --p-message_pane__bg__hover: #1a1a1a !important;
+    --p-message_pane__border: #2e2e2e !important;
+    --p-composer__bg: #1a1a1a !important;
+    --p-composer__border: #2e2e2e !important;
+    --p-composer__text: #e4e4e4 !important;
+    --p-composer__placeholder: #7d7d7d !important;
+    --p-toolbar__bg: #0a0a0a !important;
+    --p-toolbar__text: #e4e4e4 !important;
+    --p-menu__bg: #1a1a1a !important;
+    --p-menu__text: #e4e4e4 !important;
+    --p-menu__border: #2e2e2e !important;
+  }
+
+  html,
+  body {
+    background-color: #0a0a0a !important;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

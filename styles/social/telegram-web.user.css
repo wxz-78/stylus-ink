@@ -1,0 +1,55 @@
+/* ==UserStyle==
+@name Telegram Web Ink
+@namespace stylus-ink/extra/telegram-web
+@version 1.0.0
+@description Tema oscuro monocromo Ink para Telegram Web (K y A).
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("web.telegram.org"), domain("webk.telegram.org"), domain("weba.telegram.org") {
+  :root {
+    color-scheme: dark;
+    --color-background: #0a0a0a !important;
+    --color-text: #e4e4e4 !important;
+    --color-borders: #2e2e2e !important;
+    --color-secondary: #a8a8a8 !important;
+    --color-primary: #b2b2b2 !important;
+    --color-chat-active: #1a1a1a !important;
+    --color-message-out-background: #1a1a1a !important;
+    --color-message-in-background: #050505 !important;
+    --color-light-background: #1a1a1a !important;
+    --color-dark-background: #000000 !important;
+    --color-scrollbar: #464646 !important;
+    --color-placeholder: #7d7d7d !important;
+    --color-selection: #464646 !important;
+  }
+
+  html,
+  body,
+  #root,
+  .App,
+  .Chat,
+  .messages-container {
+    background-color: #0a0a0a !important;
+    color: #e4e4e4 !important;
+  }
+
+  .Message.is-out {
+    background-color: #1a1a1a !important;
+  }
+
+  .Message.is-in {
+    background-color: #050505 !important;
+  }
+
+  input,
+  textarea,
+  select {
+    color-scheme: dark;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

@@ -1,0 +1,70 @@
+/* ==UserStyle==
+@name AliExpress Ink
+@namespace stylus-ink/extra/aliexpress
+@version 1.0.0
+@description Tema oscuro monocromo Ink para AliExpress.
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("aliexpress.com"), domain("aliexpress.us"), domain("es.aliexpress.com") {
+  :root {
+    color-scheme: dark;
+    --ink-base: #0a0a0a;
+    --ink-mantle: #050505;
+    --ink-surface: #1a1a1a;
+    --ink-surface-2: #2e2e2e;
+    --ink-border: #2e2e2e;
+    --ink-text: #e4e4e4;
+    --ink-muted: #a8a8a8;
+    --ink-accent: #b2b2b2;
+  }
+
+  html,
+  body,
+  #root,
+  .web-container,
+  .product-detail,
+  .search-result {
+    background-color: var(--ink-base) !important;
+    color: var(--ink-text) !important;
+  }
+
+  .header,
+  .top-header,
+  .search-bar,
+  .nav-container,
+  .footer {
+    background-color: var(--ink-mantle) !important;
+    color: var(--ink-text) !important;
+    border-color: var(--ink-border) !important;
+  }
+
+  .product-card,
+  .item-card,
+  .card,
+  .sku-item,
+  .product-info {
+    background-color: var(--ink-surface) !important;
+    border-color: var(--ink-border) !important;
+    color: var(--ink-text) !important;
+  }
+
+  a,
+  a:visited {
+    color: #c8c8c8 !important;
+  }
+
+  input,
+  textarea,
+  select {
+    background-color: var(--ink-surface) !important;
+    color: var(--ink-text) !important;
+    border-color: var(--ink-surface-2) !important;
+    color-scheme: dark;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

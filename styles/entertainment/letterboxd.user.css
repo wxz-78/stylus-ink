@@ -1,0 +1,57 @@
+/* ==UserStyle==
+@name Letterboxd Ink
+@namespace stylus-ink/extra/letterboxd
+@version 1.0.0
+@description Tema oscuro monocromo Ink para Letterboxd.
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("letterboxd.com") {
+  :root {
+    color-scheme: dark;
+    --body-background-color: #0a0a0a !important;
+    --body-text-color: #e4e4e4 !important;
+    --content-background-color: #0a0a0a !important;
+    --content-title-color: #e4e4e4 !important;
+    --content-filter-background-color: #1a1a1a !important;
+    --content-filter-border-color: #2e2e2e !important;
+    --content-filter-text-color: #e4e4e4 !important;
+    --content-filter-hover-background-color: #2e2e2e !important;
+    --footer-background-color: #050505 !important;
+    --footer-border-color: #2e2e2e !important;
+    --footer-text-color: #a8a8a8 !important;
+    --header-background-color: #050505 !important;
+    --header-border-color: #2e2e2e !important;
+    --header-text-color: #e4e4e4 !important;
+    --link-color: #c8c8c8 !important;
+    --link-hover-color: #efefef !important;
+    --nav-background-color: #050505 !important;
+    --nav-border-color: #2e2e2e !important;
+    --nav-text-color: #c8c8c8 !important;
+    --nav-hover-background-color: #1a1a1a !important;
+    --nav-hover-text-color: #efefef !important;
+    --poster-background-color: #1a1a1a !important;
+    --profile-header-background-color: #1a1a1a !important;
+    --section-background-color: #0a0a0a !important;
+    --section-title-color: #e4e4e4 !important;
+    --button-background-color: #b2b2b2 !important;
+    --button-text-color: #0a0a0a !important;
+  }
+
+  html,
+  body {
+    background-color: #0a0a0a !important;
+    color: #e4e4e4 !important;
+  }
+
+  input,
+  textarea,
+  select {
+    color-scheme: dark;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

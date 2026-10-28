@@ -1,0 +1,49 @@
+/* ==UserStyle==
+@name Prime Video Ink
+@namespace stylus-ink/extra/prime-video
+@version 1.0.0
+@description Ajustes monocromos Ink para Prime Video Web.
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("primevideo.com"), url-prefix("https://www.amazon.com/gp/video") {
+  :root {
+    color-scheme: dark;
+    --ink-base: #0a0a0a;
+    --ink-surface: #1a1a1a;
+    --ink-border: #2e2e2e;
+    --ink-text: #e4e4e4;
+    --ink-muted: #a8a8a8;
+    --ink-accent: #b2b2b2;
+    --fable-color-background: #0a0a0a !important;
+    --fable-color-surface: #1a1a1a !important;
+    --fable-color-text: #e4e4e4 !important;
+    --fable-color-text-secondary: #a8a8a8 !important;
+    --fable-color-border: #2e2e2e !important;
+    --fable-color-primary: #b2b2b2 !important;
+  }
+
+  html,
+  body,
+  #dv-web-app,
+  .web-app,
+  .navigation-bar {
+    background-color: var(--ink-base) !important;
+    color: var(--ink-text) !important;
+  }
+
+  a {
+    color: var(--ink-muted) !important;
+  }
+
+  input,
+  textarea,
+  select {
+    color-scheme: dark;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

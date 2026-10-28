@@ -1,0 +1,62 @@
+/* ==UserStyle==
+@name Meta Ink
+@namespace stylus-ink/extra/meta
+@version 1.0.0
+@description Tema oscuro monocromo Ink para Facebook, Messenger y Threads.
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("facebook.com"), domain("messenger.com"), domain("threads.net"), domain("threads.com") {
+  :root,
+  .__fb-light-mode,
+  .__fb-dark-mode {
+    color-scheme: dark;
+    --web-wash: #0a0a0a !important;
+    --surface-background: #0a0a0a !important;
+    --card-background: #1a1a1a !important;
+    --comment-background: #1a1a1a !important;
+    --primary-background: #0a0a0a !important;
+    --secondary-background: #050505 !important;
+    --tertiary-background: #1a1a1a !important;
+    --input-background: #1a1a1a !important;
+    --primary-text: #e4e4e4 !important;
+    --secondary-text: #a8a8a8 !important;
+    --placeholder-text: #7d7d7d !important;
+    --divider: #2e2e2e !important;
+    --hover-overlay: rgba(255, 255, 255, 0.06) !important;
+    --press-overlay: rgba(255, 255, 255, 0.10) !important;
+    --primary-button-background: #b2b2b2 !important;
+    --primary-button-text: #0a0a0a !important;
+    --accent: #b2b2b2 !important;
+    --link: #c8c8c8 !important;
+    --base-blue-link: #c8c8c8 !important;
+    --always-white: #e4e4e4 !important;
+    --always-black: #0a0a0a !important;
+    --muted-icon: #a8a8a8 !important;
+  }
+
+  html,
+  body {
+    background-color: #0a0a0a !important;
+    color: #e4e4e4 !important;
+  }
+
+  [role="dialog"],
+  [role="menu"],
+  [role="listbox"] {
+    background-color: #1a1a1a !important;
+    color: #e4e4e4 !important;
+    border-color: #2e2e2e !important;
+  }
+
+  input,
+  textarea,
+  select {
+    color-scheme: dark;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

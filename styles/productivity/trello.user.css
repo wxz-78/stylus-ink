@@ -1,0 +1,50 @@
+/* ==UserStyle==
+@name Trello Ink
+@namespace stylus-ink/extra/trello
+@version 1.0.0
+@description Tema oscuro monocromo Ink para Trello.
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("trello.com") {
+  :root {
+    color-scheme: dark;
+    --ds-surface: #0a0a0a !important;
+    --ds-surface-raised: #1a1a1a !important;
+    --ds-surface-overlay: #1a1a1a !important;
+    --ds-surface-sunken: #050505 !important;
+    --ds-text: #e4e4e4 !important;
+    --ds-text-subtle: #a8a8a8 !important;
+    --ds-text-disabled: #646464 !important;
+    --ds-border: #2e2e2e !important;
+    --ds-border-focused: #646464 !important;
+    --ds-background-neutral: #1a1a1a !important;
+    --ds-background-neutral-hovered: #2e2e2e !important;
+    --ds-background-neutral-pressed: #464646 !important;
+    --ds-background-selected: #2e2e2e !important;
+    --ds-background-board: #0a0a0a !important;
+    --ds-background-card: #1a1a1a !important;
+    --ds-background-list: #050505 !important;
+    --ds-link: #c8c8c8 !important;
+  }
+
+  html,
+  body,
+  #trello-root,
+  .board,
+  [data-testid="board"] {
+    background-color: #0a0a0a !important;
+    color: #e4e4e4 !important;
+  }
+
+  input,
+  textarea,
+  select {
+    color-scheme: dark;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

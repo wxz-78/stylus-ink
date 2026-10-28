@@ -1,0 +1,83 @@
+/* ==UserStyle==
+@name eBay Ink
+@namespace stylus-ink/extra/ebay
+@version 1.0.0
+@description Tema oscuro monocromo Ink para eBay.
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("ebay.com"), domain("ebay.es"), domain("ebay.co.uk"), domain("ebay.de"), domain("ebay.fr"), domain("ebay.it") {
+  :root {
+    color-scheme: dark;
+    --ink-base: #0a0a0a;
+    --ink-mantle: #050505;
+    --ink-surface: #1a1a1a;
+    --ink-surface-2: #2e2e2e;
+    --ink-border: #2e2e2e;
+    --ink-text: #e4e4e4;
+    --ink-muted: #a8a8a8;
+    --ink-accent: #b2b2b2;
+  }
+
+  html,
+  body,
+  #bodyContent,
+  .pagecontainer,
+  #mainContent {
+    background-color: var(--ink-base) !important;
+    color: var(--ink-text) !important;
+  }
+
+  #gh,
+  .gh-header,
+  .gh-search,
+  .x-gh-ebaylogo,
+  .ux-bin-navigation,
+  #Header {
+    background-color: var(--ink-mantle) !important;
+    color: var(--ink-text) !important;
+    border-color: var(--ink-border) !important;
+  }
+
+  .s-item,
+  .s-card,
+  .vi-content,
+  .ux-layout-section,
+  .x-panel,
+  .item-card {
+    background-color: var(--ink-surface) !important;
+    border-color: var(--ink-border) !important;
+  }
+
+  .s-item__title,
+  .s-item__price,
+  .x-item-title__mainTitle,
+  .ux-textspans {
+    color: var(--ink-text) !important;
+  }
+
+  .s-item__subtitle,
+  .s-item__location,
+  .ux-textspans--SECONDARY {
+    color: var(--ink-muted) !important;
+  }
+
+  a,
+  a:visited {
+    color: #c8c8c8 !important;
+  }
+
+  input,
+  textarea,
+  select {
+    background-color: var(--ink-surface) !important;
+    color: var(--ink-text) !important;
+    border-color: var(--ink-surface-2) !important;
+    color-scheme: dark;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

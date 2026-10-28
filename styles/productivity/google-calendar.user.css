@@ -1,0 +1,49 @@
+/* ==UserStyle==
+@name Google Calendar Ink
+@namespace stylus-ink/extra/google-calendar
+@version 1.0.0
+@description Tema oscuro monocromo Ink para Google Calendar.
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("calendar.google.com") {
+  :root {
+    color-scheme: dark;
+    --gm3-sys-color-surface: #0a0a0a !important;
+    --gm3-sys-color-surface-container: #1a1a1a !important;
+    --gm3-sys-color-surface-container-high: #2e2e2e !important;
+    --gm3-sys-color-surface-container-highest: #464646 !important;
+    --gm3-sys-color-on-surface: #e4e4e4 !important;
+    --gm3-sys-color-on-surface-variant: #a8a8a8 !important;
+    --gm3-sys-color-outline: #464646 !important;
+    --gm3-sys-color-outline-variant: #2e2e2e !important;
+    --gm3-sys-color-primary: #b2b2b2 !important;
+    --gm3-sys-color-on-primary: #0a0a0a !important;
+    --gm3-sys-color-secondary-container: #2e2e2e !important;
+    --gm3-sys-color-on-secondary-container: #e4e4e4 !important;
+    --gm3-sys-color-error: #a0a0a0 !important;
+    --gm3-sys-color-background: #0a0a0a !important;
+    --gm3-sys-color-on-background: #e4e4e4 !important;
+  }
+
+  html,
+  body,
+  #viewContainer,
+  #main,
+  .S2Fy6e,
+  .sgXwHf {
+    background-color: #0a0a0a !important;
+    color: #e4e4e4 !important;
+  }
+
+  input,
+  textarea,
+  select {
+    color-scheme: dark;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

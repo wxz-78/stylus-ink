@@ -1,0 +1,42 @@
+/* ==UserStyle==
+@name Figma Ink
+@namespace stylus-ink/extra/figma
+@version 1.0.0
+@description Tema oscuro monocromo Ink para la interfaz de Figma Web.
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("figma.com") {
+  :root {
+    color-scheme: dark;
+    --figma-color-bg: #0a0a0a !important;
+    --figma-color-bg-secondary: #050505 !important;
+    --figma-color-bg-tertiary: #1a1a1a !important;
+    --figma-color-bg-hover: #1a1a1a !important;
+    --figma-color-bg-pressed: #2e2e2e !important;
+    --figma-color-bg-selected: #2e2e2e !important;
+    --figma-color-bg-brand: #b2b2b2 !important;
+    --figma-color-bg-brand-hover: #c8c8c8 !important;
+    --figma-color-text: #e4e4e4 !important;
+    --figma-color-text-secondary: #a8a8a8 !important;
+    --figma-color-text-tertiary: #7d7d7d !important;
+    --figma-color-text-onbrand: #0a0a0a !important;
+    --figma-color-border: #2e2e2e !important;
+    --figma-color-border-strong: #464646 !important;
+    --figma-color-icon: #c8c8c8 !important;
+    --figma-color-icon-secondary: #a8a8a8 !important;
+    --figma-color-icon-tertiary: #7d7d7d !important;
+  }
+
+  html,
+  body,
+  #fullscreen-root {
+    background-color: #0a0a0a !important;
+    color: #e4e4e4 !important;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

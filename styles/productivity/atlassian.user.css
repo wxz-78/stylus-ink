@@ -1,0 +1,54 @@
+/* ==UserStyle==
+@name Atlassian Ink
+@namespace stylus-ink/extra/atlassian
+@version 1.0.0
+@description Tema oscuro monocromo Ink para Jira, Confluence y Bitbucket.
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("atlassian.com"), domain("atlassian.net"), domain("bitbucket.org") {
+  :root {
+    color-scheme: dark;
+    --ds-surface: #0a0a0a !important;
+    --ds-surface-raised: #1a1a1a !important;
+    --ds-surface-overlay: #1a1a1a !important;
+    --ds-surface-sunken: #050505 !important;
+    --ds-text: #e4e4e4 !important;
+    --ds-text-subtle: #a8a8a8 !important;
+    --ds-text-subtlest: #7d7d7d !important;
+    --ds-text-disabled: #646464 !important;
+    --ds-border: #2e2e2e !important;
+    --ds-border-focused: #646464 !important;
+    --ds-background-neutral: #1a1a1a !important;
+    --ds-background-neutral-hovered: #2e2e2e !important;
+    --ds-background-selected: #2e2e2e !important;
+    --ds-background-input: #1a1a1a !important;
+    --ds-border-input: #464646 !important;
+    --ds-link: #c8c8c8 !important;
+    --ds-background-brand-bold: #b2b2b2 !important;
+    --ds-text-on-brand-bold: #0a0a0a !important;
+    --ds-background-discovery-bold: #b2b2b2 !important;
+  }
+
+  html,
+  body,
+  #root,
+  #jira,
+  .ak-main-container,
+  .aui-layout,
+  .content-wrapper {
+    background-color: #0a0a0a !important;
+    color: #e4e4e4 !important;
+  }
+
+  input,
+  textarea,
+  select {
+    color-scheme: dark;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

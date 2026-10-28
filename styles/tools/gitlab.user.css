@@ -1,0 +1,74 @@
+/* ==UserStyle==
+@name GitLab Ink
+@namespace stylus-ink/extra/gitlab
+@version 1.0.0
+@description Tema oscuro monocromo Ink para GitLab (gitlab.com y autoalojado).
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("gitlab.com") {
+  :root {
+    color-scheme: dark;
+    --gl-background-default: #0a0a0a !important;
+    --gl-background-overlay: #1a1a1a !important;
+    --gl-background-subtle: #050505 !important;
+    --gl-text-color-default: #e4e4e4 !important;
+    --gl-text-color-subtle: #a8a8a8 !important;
+    --gl-text-color-disabled: #646464 !important;
+    --gl-border-color-default: #2e2e2e !important;
+    --gl-border-color-strong: #464646 !important;
+    --gl-color-neutral-50: #0a0a0a !important;
+    --gl-color-neutral-100: #050505 !important;
+    --gl-color-neutral-200: #1a1a1a !important;
+    --gl-color-neutral-300: #2e2e2e !important;
+    --gl-color-neutral-400: #464646 !important;
+    --gl-color-neutral-500: #646464 !important;
+    --gl-color-neutral-600: #7d7d7d !important;
+    --gl-color-neutral-700: #a8a8a8 !important;
+    --gl-color-neutral-800: #c8c8c8 !important;
+    --gl-color-neutral-900: #e4e4e4 !important;
+    --gl-color-neutral-950: #efefef !important;
+    --gray-50: #0a0a0a !important;
+    --gray-100: #050505 !important;
+    --gray-200: #1a1a1a !important;
+    --gray-300: #2e2e2e !important;
+    --gray-400: #464646 !important;
+    --gray-500: #646464 !important;
+    --gray-600: #7d7d7d !important;
+    --gray-700: #a8a8a8 !important;
+    --gray-800: #c8c8c8 !important;
+    --gray-900: #e4e4e4 !important;
+    --gray-950: #efefef !important;
+    --blue-500: #a6a6a6 !important;
+  }
+
+  html,
+  body,
+  .layout-page,
+  .page-with-sidebar,
+  .content-wrapper,
+  .navbar-gitlab {
+    background-color: #0a0a0a !important;
+    color: #e4e4e4 !important;
+  }
+
+  .card,
+  .gl-card,
+  .panel,
+  .issuable,
+  .board-card {
+    background-color: #1a1a1a !important;
+    border-color: #2e2e2e !important;
+  }
+
+  input,
+  textarea,
+  select {
+    color-scheme: dark;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

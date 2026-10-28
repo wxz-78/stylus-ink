@@ -1,0 +1,47 @@
+/* ==UserStyle==
+@name Google Maps Ink
+@namespace stylus-ink/extra/google-maps
+@version 1.0.0
+@description Interfaz oscura Ink para Google Maps, con el mapa en escala de grises invertida.
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("maps.google.com"), domain("maps.google.es"), url-prefix("https://www.google.com/maps"), url-prefix("https://www.google.es/maps") {
+  :root {
+    color-scheme: dark;
+    --gm3-sys-color-surface: #0a0a0a !important;
+    --gm3-sys-color-surface-container: #1a1a1a !important;
+    --gm3-sys-color-on-surface: #e4e4e4 !important;
+    --gm3-sys-color-on-surface-variant: #a8a8a8 !important;
+    --gm3-sys-color-outline: #2e2e2e !important;
+    --gm3-sys-color-primary: #b2b2b2 !important;
+    --gm3-sys-color-on-primary: #0a0a0a !important;
+    --gm3-sys-color-background: #0a0a0a !important;
+    --gm3-sys-color-on-background: #e4e4e4 !important;
+  }
+
+  html,
+  body,
+  #map,
+  .widget-scene {
+    background-color: #0a0a0a !important;
+    color: #e4e4e4 !important;
+  }
+
+  /* El mapa se sirve como teselas claras: invertir + escala de grises lo integra en Ink. */
+  .widget-scene-canvas,
+  .widget-scene-imagery {
+    filter: invert(1) grayscale(1) brightness(0.85) contrast(0.95);
+  }
+
+  input,
+  textarea,
+  select {
+    color-scheme: dark;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

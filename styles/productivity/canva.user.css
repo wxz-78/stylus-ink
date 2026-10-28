@@ -1,0 +1,43 @@
+/* ==UserStyle==
+@name Canva Ink
+@namespace stylus-ink/extra/canva
+@version 1.0.0
+@description Tema oscuro monocromo Ink para la interfaz de Canva.
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("canva.com") {
+  :root {
+    color-scheme: dark;
+    --ui-kit-color-background: #0a0a0a !important;
+    --ui-kit-color-background-secondary: #050505 !important;
+    --ui-kit-color-background-tertiary: #1a1a1a !important;
+    --ui-kit-color-foreground: #e4e4e4 !important;
+    --ui-kit-color-foreground-secondary: #a8a8a8 !important;
+    --ui-kit-color-border: #2e2e2e !important;
+    --ui-kit-color-primary: #b2b2b2 !important;
+    --ui-kit-color-on-primary: #0a0a0a !important;
+    --ui-kit-color-secondary: #a8a8a8 !important;
+    --ui-kit-color-danger: #a0a0a0 !important;
+    --ui-kit-color-success: #dddddd !important;
+  }
+
+  html,
+  body,
+  #root,
+  .app {
+    background-color: #0a0a0a !important;
+    color: #e4e4e4 !important;
+  }
+
+  input,
+  textarea,
+  select {
+    color-scheme: dark;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

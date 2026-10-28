@@ -1,0 +1,50 @@
+/* ==UserStyle==
+@name Netflix Ink
+@namespace stylus-ink/extra/netflix
+@version 1.0.0
+@description Ajustes monocromos Ink para Netflix Web (páginas de cuenta y navegación).
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("netflix.com") {
+  :root {
+    color-scheme: dark;
+    --ink-base: #0a0a0a;
+    --ink-surface: #1a1a1a;
+    --ink-border: #2e2e2e;
+    --ink-text: #e4e4e4;
+    --ink-muted: #a8a8a8;
+    --ink-accent: #b2b2b2;
+  }
+
+  html,
+  body,
+  .account,
+  .sub-footer,
+  .footer,
+  .member-footer,
+  .profiles-gate-container {
+    background-color: var(--ink-base) !important;
+    color: var(--ink-text) !important;
+  }
+
+  .account a,
+  .member-footer a,
+  .footer a {
+    color: var(--ink-muted) !important;
+  }
+
+  input,
+  textarea,
+  select {
+    background-color: var(--ink-surface) !important;
+    color: var(--ink-text) !important;
+    border-color: var(--ink-border) !important;
+    color-scheme: dark;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

@@ -1,0 +1,63 @@
+/* ==UserStyle==
+@name Airbnb Ink
+@namespace stylus-ink/extra/airbnb
+@version 1.0.0
+@description Tema oscuro monocromo Ink para Airbnb.
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("airbnb.com"), domain("airbnb.es"), domain("airbnb.co.uk"), domain("airbnb.com.mx") {
+  :root {
+    color-scheme: dark;
+    --background-color: #0a0a0a !important;
+    --text-color: #e4e4e4 !important;
+    --border-color: #2e2e2e !important;
+    --link-color: #c8c8c8 !important;
+    --primary-color: #b2b2b2 !important;
+    --secondary-color: #a8a8a8 !important;
+    --hover-color: #1a1a1a !important;
+    --ink-base: #0a0a0a;
+    --ink-surface: #1a1a1a;
+    --ink-border: #2e2e2e;
+    --ink-text: #e4e4e4;
+    --ink-muted: #a8a8a8;
+  }
+
+  html,
+  body,
+  #site-content,
+  #root,
+  main {
+    background-color: var(--ink-base) !important;
+    color: var(--ink-text) !important;
+  }
+
+  [data-testid="card-container"],
+  [data-testid="listing-card"],
+  [data-testid="pdp-page"],
+  [data-testid="book-it-default"],
+  header,
+  footer {
+    background-color: var(--ink-base) !important;
+    border-color: var(--ink-border) !important;
+    color: var(--ink-text) !important;
+  }
+
+  a {
+    color: var(--ink-muted) !important;
+  }
+
+  input,
+  textarea,
+  select {
+    background-color: var(--ink-surface) !important;
+    color: var(--ink-text) !important;
+    border-color: var(--ink-border) !important;
+    color-scheme: dark;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

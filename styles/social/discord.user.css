@@ -1,0 +1,53 @@
+/* ==UserStyle==
+@name Discord Ink
+@namespace stylus-ink/extra/discord
+@version 1.0.0
+@description Tema oscuro monocromo Ink para Discord Web.
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("discord.com"), domain("discordapp.com") {
+  :root,
+  .theme-dark {
+    color-scheme: dark;
+    --background-primary: #0a0a0a !important;
+    --background-secondary: #050505 !important;
+    --background-secondary-alt: #000000 !important;
+    --background-tertiary: #050505 !important;
+    --background-accent: #2e2e2e !important;
+    --background-floating: #1a1a1a !important;
+    --background-modifier-hover: rgba(255, 255, 255, 0.06) !important;
+    --background-modifier-active: rgba(255, 255, 255, 0.10) !important;
+    --background-modifier-selected: rgba(255, 255, 255, 0.12) !important;
+    --background-modifier-accent: #2e2e2e !important;
+    --background-mentioned: rgba(255, 255, 255, 0.06) !important;
+    --background-mentioned-hover: rgba(255, 255, 255, 0.09) !important;
+    --text-normal: #e4e4e4 !important;
+    --text-muted: #a8a8a8 !important;
+    --text-link: #c8c8c8 !important;
+    --text-positive: #dddddd !important;
+    --text-warning: #e9e9e9 !important;
+    --text-danger: #a0a0a0 !important;
+    --header-primary: #efefef !important;
+    --header-secondary: #c8c8c8 !important;
+    --interactive-normal: #c8c8c8 !important;
+    --interactive-hover: #efefef !important;
+    --interactive-active: #efefef !important;
+    --interactive-muted: #646464 !important;
+    --channeltextarea-background: #1a1a1a !important;
+    --input-background: #1a1a1a !important;
+    --brand-experiment: #b2b2b2 !important;
+    --brand-experiment-560: #b2b2b2 !important;
+    --brand-experiment-600: #909090 !important;
+    --deprecated-store-bg: #0a0a0a !important;
+    --scrollbar-thin-thumb: #2e2e2e !important;
+    --scrollbar-auto-thumb: #464646 !important;
+    --scrollbar-auto-track: #050505 !important;
+  }
+
+  html,
+  body {
+    background-color: #0a0a0a !important;
+  }
+}

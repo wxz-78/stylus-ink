@@ -1,0 +1,59 @@
+/* ==UserStyle==
+@name TikTok Ink
+@namespace stylus-ink/extra/tiktok
+@version 1.0.0
+@description Tema oscuro monocromo Ink para TikTok Web.
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("tiktok.com") {
+  :root {
+    color-scheme: dark;
+    --ui-shell-bg-color: #0a0a0a !important;
+    --ui-shell-text-color: #e4e4e4 !important;
+    --ui-shell-border-color: #2e2e2e !important;
+    --ui-shell-hover-bg-color: #1a1a1a !important;
+    --ui-shell-secondary-bg-color: #050505 !important;
+    --tux-colorSDTextPrimary: #e4e4e4 !important;
+    --tux-colorSDTextSecondary: #a8a8a8 !important;
+    --tux-colorSDTextTertiary: #7d7d7d !important;
+    --tux-colorSDViewBgPrimary: #0a0a0a !important;
+    --tux-colorSDViewBgSecondary: #050505 !important;
+    --tux-colorSDLinePrimary: #2e2e2e !important;
+    --tux-colorConstTextPrimary: #e4e4e4 !important;
+    --tux-colorConstTextSecondary: #a8a8a8 !important;
+    --tux-colorConstViewBg: #0a0a0a !important;
+    --tux-colorConstLinePrimary: #2e2e2e !important;
+  }
+
+  html,
+  body,
+  #app {
+    background-color: #0a0a0a !important;
+    color: #e4e4e4 !important;
+  }
+
+  header,
+  nav,
+  [data-e2e="sidebar"],
+  [data-e2e="recommend-list-item-container"] {
+    background-color: #0a0a0a !important;
+    border-color: #2e2e2e !important;
+  }
+
+  [data-e2e="feed-video"],
+  [data-e2e="search-video-item"] {
+    background-color: #050505 !important;
+  }
+
+  input,
+  textarea,
+  select {
+    color-scheme: dark;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

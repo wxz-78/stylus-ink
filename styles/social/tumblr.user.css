@@ -1,0 +1,52 @@
+/* ==UserStyle==
+@name Tumblr Ink
+@namespace stylus-ink/extra/tumblr
+@version 1.0.0
+@description Tema oscuro monocromo Ink para Tumblr.
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("tumblr.com") {
+  :root {
+    color-scheme: dark;
+    --color-bg: #0a0a0a !important;
+    --color-primary: #e4e4e4 !important;
+    --color-secondary: #a8a8a8 !important;
+    --color-border: #2e2e2e !important;
+    --color-accent: #b2b2b2 !important;
+    --bg: #0a0a0a !important;
+    --text: #e4e4e4 !important;
+    --border: #2e2e2e !important;
+    --accent: #b2b2b2 !important;
+  }
+
+  html,
+  body,
+  #base-container,
+  .l-container {
+    background-color: #0a0a0a !important;
+    color: #e4e4e4 !important;
+  }
+
+  article,
+  .post,
+  .post-content,
+  [role="article"] {
+    background-color: #1a1a1a !important;
+    border-color: #2e2e2e !important;
+  }
+
+  input,
+  textarea,
+  select {
+    background-color: #1a1a1a !important;
+    color: #e4e4e4 !important;
+    border-color: #2e2e2e !important;
+    color-scheme: dark;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}

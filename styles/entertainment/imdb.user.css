@@ -1,0 +1,59 @@
+/* ==UserStyle==
+@name IMDb Ink
+@namespace stylus-ink/extra/imdb
+@version 1.0.0
+@description Tema oscuro monocromo Ink para IMDb.
+@author Ink
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("imdb.com") {
+  :root {
+    color-scheme: dark;
+    --ipt-base-bg: #0a0a0a !important;
+    --ipt-base-color: #e4e4e4 !important;
+    --ipt-secondary-bg: #050505 !important;
+    --ipt-secondary-color: #a8a8a8 !important;
+    --ipt-on-base-accent1: #b2b2b2 !important;
+    --ipt-on-base-accent2: #c8c8c8 !important;
+    --ipt-base-hover: #1a1a1a !important;
+    --ipt-base-border: #2e2e2e !important;
+    --ink-base: #0a0a0a;
+    --ink-surface: #1a1a1a;
+    --ink-border: #2e2e2e;
+    --ink-text: #e4e4e4;
+    --ink-muted: #a8a8a8;
+  }
+
+  html,
+  body,
+  #root,
+  .ipc-page-background,
+  .ipc-page-section,
+  .navbar__inner {
+    background-color: var(--ink-base) !important;
+    color: var(--ink-text) !important;
+  }
+
+  .ipc-card,
+  .ipc-metadata-list-summary-item,
+  .ipc-poster-card,
+  .title_wrapper {
+    background-color: var(--ink-surface) !important;
+    border-color: var(--ink-border) !important;
+  }
+
+  a {
+    color: var(--ink-muted) !important;
+  }
+
+  input,
+  textarea,
+  select {
+    color-scheme: dark;
+  }
+
+  :root {
+    scrollbar-color: #464646 #050505;
+  }
+}
